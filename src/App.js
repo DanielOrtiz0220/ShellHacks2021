@@ -1,3 +1,4 @@
+
 import './App.css';
 import QuestionBox from './QuestionBox';
 
@@ -9,9 +10,6 @@ function App() {
        <p>Question 1</p>
        <div class="arrow arrow-right"></div>
      </header>
-     <div id="topName">
-       <p>Test</p>
-     </div>
      <QuestionBox />
      <div id="bottomButtons">
        <center>
