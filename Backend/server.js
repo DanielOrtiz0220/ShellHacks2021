@@ -1,9 +1,7 @@
 require('dotenv').config(); 
 
-
-
 const nodemailer = require('nodemailer');
-const hbs = require('nodemailer-express-handlebars')
+
 
 let transporter = nodemailer.createTransport({
     service: 'gmail',
